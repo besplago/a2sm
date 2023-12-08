@@ -14,5 +14,5 @@ a2sm.exe "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" "Google C
 ```
 
 ## Notes
-- Consider addint the exe to your path so you can run it from anywhere
+- Consider adding the exe to your path so you can run it from anywhere
 - I'm on that good kush and alcohol 😎
