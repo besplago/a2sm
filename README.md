@@ -1,5 +1,5 @@
 # Add To Search Menu
-A simple python script that adds a given program to the windows search index. It does this by adding
+A simple program that adds a given program to the windows search index. It does this by adding
 a shortcut of the program to the start menu folder and then updating the search index. Usually the
 path: `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\`
 
