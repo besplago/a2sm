@@ -5,12 +5,12 @@ path: `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\`
 
 ## Usage
 ```bash
-a2s.exe <path to program> <name of shortcut>
+a2sm.exe <path to program> <name of shortcut>
 ```
 
 ## Example
 ```bash
-a2s.exe "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" "Google Chrome"
+a2sm.exe "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" "Google Chrome"
 ```
 
 ## Notes
