@@ -32,19 +32,10 @@ def _add_to_start_menu(program_path: str, shortcut_name: str) -> None:
     os.startfile(start_menu_programs_path)
 
 def _create_shortcut(program_path: str, shortcut_path: str) -> None:
-    # Create a shell object
     shell: win32com.client.Dispatch = win32com.client.Dispatch("WScript.Shell")
-
-    # Create a shortcut object
     shortcut: win32com.client.Dispatch = shell.CreateShortcut(shortcut_path)
-
-    # Set the shortcut's target
     shortcut.TargetPath = program_path
-
-    # Set the shortcut's working directory
     shortcut.WorkingDirectory = os.path.dirname(program_path)
-
-    # Save the shortcut
     shortcut.Save()
 
 def main():
